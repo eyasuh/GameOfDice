@@ -152,7 +152,7 @@ public class GameOfDice {
         //create scanner object
         Scanner input = new Scanner(System.in);
         // prompt user
-        System.out.println("Welcome! Let's Play Roll Dice! enter yes or no to play");
+        System.out.println("Welcome! Let's Play Roll Dice! enter \"yes\" to keep playing or \"no\" to quit playing");
         String yesOrNo = input.nextLine();
 
         int score = 0;
